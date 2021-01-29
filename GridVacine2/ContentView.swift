@@ -8,15 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    var seeker: Seeker
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-}
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        StartView(seeker: seeker)
+            .frame(width: 700, height: 600, alignment: .center)
     }
 }

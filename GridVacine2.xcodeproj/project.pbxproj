@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0158B425BC935100FF95A0 /* PairBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158B325BC935100FF95A0 /* PairBatch.swift */; };
+		9B0158B725BC93CB00FF95A0 /* Writable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158B625BC93CB00FF95A0 /* Writable.swift */; };
+		9B0158BA25BCC14D00FF95A0 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158B925BCC14D00FF95A0 /* StartView.swift */; };
+		9B0158BE25BCCA9A00FF95A0 /* ValidPairsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158BD25BCCA9A00FF95A0 /* ValidPairsView.swift */; };
+		9B0158C125BCEED400FF95A0 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158C025BCEED400FF95A0 /* Duration.swift */; };
+		9B0158C425BD41AF00FF95A0 /* GridValidateEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0158C325BD41AF00FF95A0 /* GridValidateEndpoint.swift */; };
+		9B219A9425C3BCCB004383C8 /* DebugInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B219A9325C3BCCB004383C8 /* DebugInfo.swift */; };
 		9B640DF525A19869006F9A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B640DF425A19869006F9A24 /* AppDelegate.swift */; };
 		9B640DF725A19869006F9A24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B640DF625A19869006F9A24 /* ContentView.swift */; };
 		9B640DF925A1986A006F9A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B640DF825A1986A006F9A24 /* Assets.xcassets */; };
 		9B640DFC25A1986A006F9A24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B640DFB25A1986A006F9A24 /* Preview Assets.xcassets */; };
 		9B640DFF25A1986A006F9A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B640DFD25A1986A006F9A24 /* Main.storyboard */; };
+		9B640E0E25A23148006F9A24 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B640E0D25A23148006F9A24 /* Coordinate.swift */; };
+		9B640E1125A2315C006F9A24 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B640E1025A2315C006F9A24 /* Direction.swift */; };
+		9B77FAB625C283D00006382E /* Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77FAB525C283D00006382E /* Containers.swift */; };
+		9B77FAB925C298060006382E /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77FAB825C298060006382E /* Run.swift */; };
+		9B77FABC25C2991C0006382E /* Aray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77FABB25C2991C0006382E /* Aray.swift */; };
+		9B77FAC025C29DA40006382E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77FABF25C29DA40006382E /* Date.swift */; };
+		9BABF12525B2B19000730EB4 /* PairValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABF12425B2B19000730EB4 /* PairValidator.swift */; };
+		9BABF12825B2B28C00730EB4 /* GridChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABF12725B2B28C00730EB4 /* GridChecker.swift */; };
+		9BABF12B25B3B5E500730EB4 /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABF12A25B3B5E500730EB4 /* GridData.swift */; };
+		9BABF83825C1042A0050B1A7 /* CellsRemainingDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABF83725C1042A0050B1A7 /* CellsRemainingDataItem.swift */; };
+		9BC0AF4125BA6BCF006BEA91 /* Seeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF4025BA6BCF006BEA91 /* Seeker.swift */; };
+		9BC0AF4525BA9B8B006BEA91 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF4425BA9B8B006BEA91 /* TimeInterval.swift */; };
+		9BC0AF5125BAA87C006BEA91 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5025BAA87C006BEA91 /* Validator.swift */; };
+		9BC0AF5425BAA91F006BEA91 /* NoAntiVaxBotEndStateAndSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5325BAA91F006BEA91 /* NoAntiVaxBotEndStateAndSequence.swift */; };
+		9BC0AF5725BAA938006BEA91 /* OneAntiVaxBotEndStateAndSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5625BAA938006BEA91 /* OneAntiVaxBotEndStateAndSequence.swift */; };
+		9BC0AF5A25BAA973006BEA91 /* FirstVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5925BAA973006BEA91 /* FirstVisit.swift */; };
+		9BC0AF5D25BBCFB6006BEA91 /* ValidPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5C25BBCFB6006BEA91 /* ValidPair.swift */; };
+		9BC0AF6025BBF27D006BEA91 /* PairBatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF5F25BBF27D006BEA91 /* PairBatchView.swift */; };
+		9BC0AF6325BBF2AD006BEA91 /* PairBatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF6225BBF2AD006BEA91 /* PairBatchesView.swift */; };
+		9BC0AF6625BBF2C7006BEA91 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF6525BBF2C7006BEA91 /* StatusView.swift */; };
+		9BC0AF6925BBF30D006BEA91 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF6825BBF30D006BEA91 /* HeaderView.swift */; };
+		9BC0AF6C25BBF327006BEA91 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF6B25BBF327006BEA91 /* ProgressView.swift */; };
+		9BC0AF6F25BBF36D006BEA91 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF6E25BBF36D006BEA91 /* ResultsView.swift */; };
+		9BC0AF7325BBF44C006BEA91 /* GridLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF7225BBF44C006BEA91 /* GridLoadingView.swift */; };
+		9BC0AF7625BBF96F006BEA91 /* GridSearchStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF7525BBF96F006BEA91 /* GridSearchStatusView.swift */; };
+		9BC0AF7925BBF98E006BEA91 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF7825BBF98E006BEA91 /* ElapsedTimeView.swift */; };
+		9BC0AF7C25BBF9B5006BEA91 /* GridSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0AF7B25BBF9B5006BEA91 /* GridSizeView.swift */; };
+		9BE204F125BE565400C2CBD0 /* BatchPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE204F025BE565400C2CBD0 /* BatchPart.swift */; };
+		9BE204F625BE8FB900C2CBD0 /* CellsRemainingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE204F425BE8FB900C2CBD0 /* CellsRemainingRequest.swift */; };
+		9BE204F725BE8FB900C2CBD0 /* CellsRemainingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE204F525BE8FB900C2CBD0 /* CellsRemainingResponse.swift */; };
+		9BE204FA25BE93E600C2CBD0 /* CellsRemainingEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE204F925BE93E600C2CBD0 /* CellsRemainingEndPoint.swift */; };
+		9BE204FF25BFD16400C2CBD0 /* CheckGridRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE204FE25BFD16400C2CBD0 /* CheckGridRequest.swift */; };
+		9BE2050325BFD16E00C2CBD0 /* CheckGridResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2050225BFD16E00C2CBD0 /* CheckGridResponse.swift */; };
+		9BE2050625BFD1B900C2CBD0 /* ContainerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2050525BFD1B900C2CBD0 /* ContainerInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B0158B325BC935100FF95A0 /* PairBatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairBatch.swift; sourceTree = "<group>"; };
+		9B0158B625BC93CB00FF95A0 /* Writable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writable.swift; sourceTree = "<group>"; };
+		9B0158B925BCC14D00FF95A0 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		9B0158BD25BCCA9A00FF95A0 /* ValidPairsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPairsView.swift; sourceTree = "<group>"; };
+		9B0158C025BCEED400FF95A0 /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		9B0158C325BD41AF00FF95A0 /* GridValidateEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridValidateEndpoint.swift; sourceTree = "<group>"; };
+		9B219A9325C3BCCB004383C8 /* DebugInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugInfo.swift; sourceTree = "<group>"; };
 		9B640DF125A19869006F9A24 /* GridVacine2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridVacine2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B640DF425A19869006F9A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B640DF625A19869006F9A24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +71,40 @@
 		9B640DFE25A1986A006F9A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B640E0025A1986A006F9A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B640E0125A1986A006F9A24 /* GridVacine2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GridVacine2.entitlements; sourceTree = "<group>"; };
+		9B640E0D25A23148006F9A24 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		9B640E1025A2315C006F9A24 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		9B77FAB525C283D00006382E /* Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Containers.swift; sourceTree = "<group>"; };
+		9B77FAB825C298060006382E /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		9B77FABB25C2991C0006382E /* Aray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aray.swift; sourceTree = "<group>"; };
+		9B77FABF25C29DA40006382E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9BABF12425B2B19000730EB4 /* PairValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairValidator.swift; sourceTree = "<group>"; };
+		9BABF12725B2B28C00730EB4 /* GridChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChecker.swift; sourceTree = "<group>"; };
+		9BABF12A25B3B5E500730EB4 /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
+		9BABF83725C1042A0050B1A7 /* CellsRemainingDataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsRemainingDataItem.swift; sourceTree = "<group>"; };
+		9BC0AF4025BA6BCF006BEA91 /* Seeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeker.swift; sourceTree = "<group>"; };
+		9BC0AF4425BA9B8B006BEA91 /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		9BC0AF5025BAA87C006BEA91 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		9BC0AF5325BAA91F006BEA91 /* NoAntiVaxBotEndStateAndSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAntiVaxBotEndStateAndSequence.swift; sourceTree = "<group>"; };
+		9BC0AF5625BAA938006BEA91 /* OneAntiVaxBotEndStateAndSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneAntiVaxBotEndStateAndSequence.swift; sourceTree = "<group>"; };
+		9BC0AF5925BAA973006BEA91 /* FirstVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisit.swift; sourceTree = "<group>"; };
+		9BC0AF5C25BBCFB6006BEA91 /* ValidPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPair.swift; sourceTree = "<group>"; };
+		9BC0AF5F25BBF27D006BEA91 /* PairBatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairBatchView.swift; sourceTree = "<group>"; };
+		9BC0AF6225BBF2AD006BEA91 /* PairBatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairBatchesView.swift; sourceTree = "<group>"; };
+		9BC0AF6525BBF2C7006BEA91 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		9BC0AF6825BBF30D006BEA91 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9BC0AF6B25BBF327006BEA91 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		9BC0AF6E25BBF36D006BEA91 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		9BC0AF7225BBF44C006BEA91 /* GridLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLoadingView.swift; sourceTree = "<group>"; };
+		9BC0AF7525BBF96F006BEA91 /* GridSearchStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSearchStatusView.swift; sourceTree = "<group>"; };
+		9BC0AF7825BBF98E006BEA91 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		9BC0AF7B25BBF9B5006BEA91 /* GridSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSizeView.swift; sourceTree = "<group>"; };
+		9BE204F025BE565400C2CBD0 /* BatchPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchPart.swift; sourceTree = "<group>"; };
+		9BE204F425BE8FB900C2CBD0 /* CellsRemainingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellsRemainingRequest.swift; sourceTree = "<group>"; };
+		9BE204F525BE8FB900C2CBD0 /* CellsRemainingResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellsRemainingResponse.swift; sourceTree = "<group>"; };
+		9BE204F925BE93E600C2CBD0 /* CellsRemainingEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsRemainingEndPoint.swift; sourceTree = "<group>"; };
+		9BE204FE25BFD16400C2CBD0 /* CheckGridRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGridRequest.swift; sourceTree = "<group>"; };
+		9BE2050225BFD16E00C2CBD0 /* CheckGridResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGridResponse.swift; sourceTree = "<group>"; };
+		9BE2050525BFD1B900C2CBD0 /* ContainerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +139,8 @@
 			children = (
 				9B640DF425A19869006F9A24 /* AppDelegate.swift */,
 				9B640DF625A19869006F9A24 /* ContentView.swift */,
+				9B640E2625A254C9006F9A24 /* Views */,
+				9B640E0B25A2313B006F9A24 /* Model */,
 				9B640DF825A1986A006F9A24 /* Assets.xcassets */,
 				9B640DFD25A1986A006F9A24 /* Main.storyboard */,
 				9B640E0025A1986A006F9A24 /* Info.plist */,
@@ -72,6 +156,77 @@
 				9B640DFB25A1986A006F9A24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B640E0B25A2313B006F9A24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FABB25C2991C0006382E /* Aray.swift */,
+				9BE204F025BE565400C2CBD0 /* BatchPart.swift */,
+				9B77FAB525C283D00006382E /* Containers.swift */,
+				9B640E0D25A23148006F9A24 /* Coordinate.swift */,
+				9B77FABF25C29DA40006382E /* Date.swift */,
+				9B219A9325C3BCCB004383C8 /* DebugInfo.swift */,
+				9B640E1025A2315C006F9A24 /* Direction.swift */,
+				9BE204FC25BFD10D00C2CBD0 /* Cells Remaining Endpoint */,
+				9B0158C025BCEED400FF95A0 /* Duration.swift */,
+				9BC0AF5925BAA973006BEA91 /* FirstVisit.swift */,
+				9BABF12725B2B28C00730EB4 /* GridChecker.swift */,
+				9BABF12A25B3B5E500730EB4 /* GridData.swift */,
+				9BC0AF5325BAA91F006BEA91 /* NoAntiVaxBotEndStateAndSequence.swift */,
+				9BC0AF5625BAA938006BEA91 /* OneAntiVaxBotEndStateAndSequence.swift */,
+				9B0158B325BC935100FF95A0 /* PairBatch.swift */,
+				9BABF12425B2B19000730EB4 /* PairValidator.swift */,
+				9BE204FD25BFD14600C2CBD0 /* Grid Validate Endpoint */,
+				9BC0AF4025BA6BCF006BEA91 /* Seeker.swift */,
+				9BC0AF4425BA9B8B006BEA91 /* TimeInterval.swift */,
+				9BC0AF5025BAA87C006BEA91 /* Validator.swift */,
+				9BC0AF5C25BBCFB6006BEA91 /* ValidPair.swift */,
+				9B0158B625BC93CB00FF95A0 /* Writable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B640E2625A254C9006F9A24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0AF7825BBF98E006BEA91 /* ElapsedTimeView.swift */,
+				9BC0AF6825BBF30D006BEA91 /* HeaderView.swift */,
+				9BC0AF7225BBF44C006BEA91 /* GridLoadingView.swift */,
+				9BC0AF7525BBF96F006BEA91 /* GridSearchStatusView.swift */,
+				9BC0AF7B25BBF9B5006BEA91 /* GridSizeView.swift */,
+				9BC0AF5F25BBF27D006BEA91 /* PairBatchView.swift */,
+				9BC0AF6225BBF2AD006BEA91 /* PairBatchesView.swift */,
+				9BC0AF6B25BBF327006BEA91 /* ProgressView.swift */,
+				9BC0AF6E25BBF36D006BEA91 /* ResultsView.swift */,
+				9B0158B925BCC14D00FF95A0 /* StartView.swift */,
+				9BC0AF6525BBF2C7006BEA91 /* StatusView.swift */,
+				9B0158BD25BCCA9A00FF95A0 /* ValidPairsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BE204FC25BFD10D00C2CBD0 /* Cells Remaining Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				9BABF83725C1042A0050B1A7 /* CellsRemainingDataItem.swift */,
+				9BE204F925BE93E600C2CBD0 /* CellsRemainingEndPoint.swift */,
+				9BE204F425BE8FB900C2CBD0 /* CellsRemainingRequest.swift */,
+				9BE204F525BE8FB900C2CBD0 /* CellsRemainingResponse.swift */,
+				9B77FAB825C298060006382E /* Run.swift */,
+			);
+			path = "Cells Remaining Endpoint";
+			sourceTree = "<group>";
+		};
+		9BE204FD25BFD14600C2CBD0 /* Grid Validate Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				9BE204FE25BFD16400C2CBD0 /* CheckGridRequest.swift */,
+				9BE2050225BFD16E00C2CBD0 /* CheckGridResponse.swift */,
+				9BE2050525BFD1B900C2CBD0 /* ContainerInfo.swift */,
+				9B0158C325BD41AF00FF95A0 /* GridValidateEndpoint.swift */,
+			);
+			path = "Grid Validate Endpoint";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +299,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC0AF6025BBF27D006BEA91 /* PairBatchView.swift in Sources */,
+				9BC0AF6925BBF30D006BEA91 /* HeaderView.swift in Sources */,
+				9BC0AF6325BBF2AD006BEA91 /* PairBatchesView.swift in Sources */,
+				9BC0AF5D25BBCFB6006BEA91 /* ValidPair.swift in Sources */,
+				9BE204F725BE8FB900C2CBD0 /* CellsRemainingResponse.swift in Sources */,
+				9BC0AF7325BBF44C006BEA91 /* GridLoadingView.swift in Sources */,
 				9B640DF725A19869006F9A24 /* ContentView.swift in Sources */,
+				9BC0AF4525BA9B8B006BEA91 /* TimeInterval.swift in Sources */,
+				9B0158C425BD41AF00FF95A0 /* GridValidateEndpoint.swift in Sources */,
+				9BC0AF5125BAA87C006BEA91 /* Validator.swift in Sources */,
+				9BC0AF7625BBF96F006BEA91 /* GridSearchStatusView.swift in Sources */,
+				9B219A9425C3BCCB004383C8 /* DebugInfo.swift in Sources */,
+				9BABF83825C1042A0050B1A7 /* CellsRemainingDataItem.swift in Sources */,
+				9BC0AF7C25BBF9B5006BEA91 /* GridSizeView.swift in Sources */,
+				9BE2050625BFD1B900C2CBD0 /* ContainerInfo.swift in Sources */,
+				9BC0AF5725BAA938006BEA91 /* OneAntiVaxBotEndStateAndSequence.swift in Sources */,
+				9BE204FA25BE93E600C2CBD0 /* CellsRemainingEndPoint.swift in Sources */,
+				9BE204F625BE8FB900C2CBD0 /* CellsRemainingRequest.swift in Sources */,
 				9B640DF525A19869006F9A24 /* AppDelegate.swift in Sources */,
+				9BC0AF5A25BAA973006BEA91 /* FirstVisit.swift in Sources */,
+				9BABF12825B2B28C00730EB4 /* GridChecker.swift in Sources */,
+				9BE204F125BE565400C2CBD0 /* BatchPart.swift in Sources */,
+				9BABF12525B2B19000730EB4 /* PairValidator.swift in Sources */,
+				9B77FABC25C2991C0006382E /* Aray.swift in Sources */,
+				9B640E1125A2315C006F9A24 /* Direction.swift in Sources */,
+				9BC0AF6F25BBF36D006BEA91 /* ResultsView.swift in Sources */,
+				9B0158BE25BCCA9A00FF95A0 /* ValidPairsView.swift in Sources */,
+				9BC0AF6625BBF2C7006BEA91 /* StatusView.swift in Sources */,
+				9B0158BA25BCC14D00FF95A0 /* StartView.swift in Sources */,
+				9BC0AF7925BBF98E006BEA91 /* ElapsedTimeView.swift in Sources */,
+				9B0158C125BCEED400FF95A0 /* Duration.swift in Sources */,
+				9B77FAB625C283D00006382E /* Containers.swift in Sources */,
+				9BABF12B25B3B5E500730EB4 /* GridData.swift in Sources */,
+				9BC0AF4125BA6BCF006BEA91 /* Seeker.swift in Sources */,
+				9BC0AF6C25BBF327006BEA91 /* ProgressView.swift in Sources */,
+				9B77FAB925C298060006382E /* Run.swift in Sources */,
+				9BE204FF25BFD16400C2CBD0 /* CheckGridRequest.swift in Sources */,
+				9BC0AF5425BAA91F006BEA91 /* NoAntiVaxBotEndStateAndSequence.swift in Sources */,
+				9B77FAC025C29DA40006382E /* Date.swift in Sources */,
+				9B0158B425BC935100FF95A0 /* PairBatch.swift in Sources */,
+				9BE2050325BFD16E00C2CBD0 /* CheckGridResponse.swift in Sources */,
+				9B640E0E25A23148006F9A24 /* Coordinate.swift in Sources */,
+				9B0158B725BC93CB00FF95A0 /* Writable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +398,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_FAST_MATH = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -262,7 +459,9 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_FAST_MATH = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
